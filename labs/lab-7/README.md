@@ -124,6 +124,8 @@ tower-cli config password verySecret
 ```
 :boom: and launch your playbook.
 
+tower-cli job launch -J 7=job_template
+
 :star: If you have time, also try adding the below flag:
 ```
 --monitor
